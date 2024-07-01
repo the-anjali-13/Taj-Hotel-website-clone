@@ -1,0 +1,424 @@
+*{
+    overflow-x:hidden;
+  }
+  
+  .video-pose{
+      position:absolute;
+      z-index: -1;
+      object-fit:cover;
+      height:100%;
+      width:100%;
+       overflow-x:hidden
+  }
+  #mynav{
+      background-color: transparent;
+      color:white;
+  }
+  
+  .book-butt{
+    background-color: #c8ac52;
+    color:white;
+    width:150px;
+    height:45px;
+    border-radius:0px;
+  }
+  
+  .global-heading{
+      font-family:'Garamond';
+      /* font-size:200%; */
+      /* font-weight:lighter; */
+      margin-bottom:30px;
+      color:#231c02e0;
+  
+    }
+    
+    .about{
+       margin-top:800px;
+       margin-bottom:100px;
+       text-align:center;
+    }
+  
+    
+  
+    /* .pera-con{
+          width:100%;
+          padding:60px;
+    } */
+  
+    .global-pera{
+      /* font-size:20px; */
+      font-weight:bold;
+      margin-bottom:10px;
+      color:#29261c;
+      font-weight:300;
+      width:100%;
+    }
+  
+    .slide-con{
+      height:83vh; 
+      align-items: center;
+      text-align: center;
+      padding:0px;
+      margin-top: 0px;
+    }
+    .slide-img{
+      height:550px;
+      width:500px;
+    }
+    #slide-car{
+      height:100%;  
+    }
+  
+    #frame1{
+      background-image: url("tajimg/frame1pic.jpg");
+      background-size:cover;
+      height:500px;
+      width:280px;
+      margin-right:2px;
+      font-family:'Garamond';
+      color:white;
+      font-size: 28px;
+      text-align:center;
+      font-weight:100;
+      padding-top:340px;
+  
+   }
+  
+   #frame2{
+     background-image: url("tajimg/frame2pic.jpg");
+     background-size:cover;
+     height:500px;
+     width:280px;
+     margin-right:2px;
+     font-family:'Garamond';
+      color:white;
+      font-size: 28px;
+      text-align:center;
+      font-weight:100;
+      padding-top:340px;
+  }
+  
+  #frame3{
+     background-image: url("tajimg/frame3pic.jpg");
+     background-size:cover;
+     height:500px;
+     width:280px;
+     margin-right:2px;
+     font-family:'Garamond';
+      color:white;
+      font-size: 28px;
+      text-align:center;
+      font-weight:100;
+      padding-top:340px;
+  }
+  
+  #frame4{
+     background-image: url("tajimg/frame4pic.jpg");
+     background-size:cover;
+     height:500px;
+     width:280px;
+     font-family:'Garamond';
+      color:white;
+      font-size: 28px;
+      text-align:center;
+      font-weight:100;
+      padding-top:340px;
+  }
+  .frameof4{
+     margin-bottom:90px;
+  }
+  
+  .frame-pera{ 
+   font-size:18px;
+     font-weight:lighter;
+     margin-bottom:10px;
+     color:#f4f2eb;
+     font-weight:500;
+  }
+  
+  .ex-sec{
+    background-image: radial-gradient(#000000,#292828);
+    width:100vw;
+    padding:30px;
+    padding-top:100px;
+    margin-top:120px;
+    padding-bottom:50px;
+  }
+  
+  .ex-sec-mainhead{
+    font-family:'Garamond';
+    /* font-size:50px; */
+    font-weight:100;  
+    color:#ffffff;
+  }
+  
+  .ex-sec-mainpera{
+    font-size:18px;
+      font-weight:lighter;
+      color:white;
+      /* font-weight:300; */
+       margin-top: 30px; 
+     /* text-align:left; */
+  }
+  
+  .ex-head{
+    font-family:'Garamond';
+    color:#4e4d4c;
+  }
+  
+  .ex-pera{
+    color:#464237;
+    font-size:15px;
+  }
+  .carousel-item {
+    padding: 0px;
+  }
+  .card-img-top {
+    height:100%;
+    width:100%;
+  }
+  
+  .karosal{
+    margin-top:80px;
+  }
+  
+  .card-body{
+    width: 100%;
+    height:20%;
+    position: absolute;
+    bottom:0px;
+    top:275px;
+    background-color: rgba(251, 248, 248, 0.742);
+    margin:30px;
+    overflow-y:hidden;
+    font-size:15px;
+  }
+  
+  .ex-pic-desc{
+    background-color: #ffffff;
+    color:black;
+    position:absolute;
+    top:260px;
+  }
+  
+  .beat-heat-sec{
+    width:100vw;
+    padding:30px;
+    padding-top:100px;
+    
+  }
+  .heat-sec-mainhead{
+    font-family:'Garamond';
+    font-weight:100;  
+    color:black;
+    margin-top:30px;
+    font-size: 50px;
+  }
+  .heat-sec-mainpera{
+    font-size:18px;
+      font-weight:lighter;
+      color:black;    
+       margin-top: 30px; 
+  }
+  
+  .beat-forsm-des{
+    position:absolute;
+    top:310px;
+    background-color: rgba(251, 248, 248, 0.742);
+    padding-left:20px;
+  }
+  
+  .beat-head{
+    font-family: Garamond;
+    font-size:20px;
+    font-weight:bold;
+    color:#393838;
+  }
+  
+  .card-text{
+    color:#857236;
+    font-size:13px;
+    text-decoration:underline;
+  }
+  
+  .dining-sec{
+    margin-top: 60px;
+    background-color: #f4f2eb;
+    width:100vw;
+    padding-top:50px;
+    
+  }
+  
+  .din-pic-sec{
+    height:60%;
+    width:20%;
+    
+  }
+  .din-pic{
+    height:60%;
+    width:90%;
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align: center;
+  }
+  .din-head{
+    font-family:garamond;
+    font-size:22px;
+      color:rgb(66, 53, 20);
+      font-weight:100;
+      
+  }
+  .din-pera{
+      font-size:18px;
+      color:rgba(61, 60, 60, 0.878);
+      font-weight:400;
+      padding:30px;
+      padding-top:20px;
+      
+  }
+  
+  .dining-pics{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .event-sec{
+    width:100vw;
+    padding:30px;
+    padding-top:60px;
+    
+  }
+  
+  
+  .event-img{
+    height:350px;
+    width:500px;
+  }
+  .event-head1{
+    height:70px;
+    width:65%;
+    position:relative;
+    bottom:40px;
+    background-color: #f4f2eb;
+    padding:20px;
+    overflow-x: hidden;
+    font-size:19px;
+    font-family: Garamond;
+    color:#4e4d4c
+  }
+  
+  .jwell-sec{
+    width:100vw;
+    /* padding:30px; */
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+  
+  .jwellimg{
+    background-image:url("tajimg/jwellpic.webp");
+    background-size: cover;
+    height:80vh;
+    width:100%;
+  }
+  
+  .jwellimg-sm{
+    background-image:url("tajimg/jwellsm.jpg");
+    background-size: cover;
+    height:400px;
+    width:90%;
+  }
+  
+  .footer-sec{
+    background-image: radial-gradient(#151414,#151414);
+    padding:20px;
+    padding-top:70px;
+    width:100%;
+  }
+  
+  .hcl-logo{
+    height:30px;
+    width:110px;
+  }
+  .footer-pera{
+    color:rgb(147, 145, 145);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top:10px;
+  }
+  
+  
+  .subs{
+    height:50px;
+    width:150px;
+    background-color: #c9c7c7;
+    color:#393838;
+    font-size:13px;
+    font-weight:bold;
+    /* margin-left: 10px; */
+  }
+  
+  .footer-white-pera{
+    color:#ffffff;
+    font-size: 17px;
+    
+  }
+  
+  .email-sec{
+    width:100%;
+  }
+  
+  input{
+    height:50px;
+    width:400px;
+    color:rgb(147, 145, 145);
+    background-color:transparent;
+    border:none;
+    border-bottom:white solid 1px;
+    font-size: 15px;
+    font-weight: 500;
+    padding:15px;
+    margin-bottom:15px;
+  }
+  
+  .social{
+    width:10%;
+    height:100px;
+  }
+  
+  .link-sec{  
+    width:100%;
+  }
+  ul{
+    color:white;
+    list-style-type: none;
+    font-size: 16px;
+    /* margin:10px; */
+    /* margin-right:20px; */
+  }
+  li{
+    margin:10px;
+    margin-left:0px;
+  }
+  
+  hr{
+    background-color: #c9c7c7;
+  }
+  
+  .brand-name{
+    font-family:garamond;
+    font-size:22px;
+    color:rgb(255, 255, 255);
+    font-weight:100;
+  }
+  .brand-logo{
+    height:70px;
+    width:140px;
+    
+  }
+  
+  .end-link, .aa, .copy-right{
+    color:white;
+    font-size:12px;
+    font-weight:100;
+  }
+  

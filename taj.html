@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taj Hotel</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="taj.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="navbar navbar-expand-lg navbar-white bg-transparent col-12" id="mynav">
+
+                <a class="navbar-brand mr-5" href="#">
+                    <img src="tajimg/tajlogo.png" class="w-75">
+                </a>
+
+                <button class="navbar-toggler ml-auto order-2 navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="m-auto">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active mr-5">
+                        <a class="nav-link text-white" href="#">DESTINATION<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item  mr-5">
+                        <a class="nav-link text-white" href="#">HOTELS</a>
+                        </li>
+                        <li class="nav-item  mr-5">
+                        <a class="nav-link text-white" href="#">DINING</a>
+                        </li>
+                        <li class="nav-item  mr-5">
+                            <a class="nav-link text-white" href="#">TAJ HOLIDAYS</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown  mr-5">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            MEMBERSHIPS
+                        </a>
+                        <div class="dropdown-menu ">
+                            <a class="dropdown-item" href="#">hey</a>
+                            <a class="dropdown-item" href="#">hi</a>
+                            <a class="dropdown-item" href="#">namste</a>
+                        </div>
+                        </li>
+                        <li class="nav-item dropdown  mr-5">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            MORE
+                            </a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">hey</a>
+                            <a class="dropdown-item" href="#">hi</a>
+                            <a class="dropdown-item" href="#">namste</a>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+
+                <span class="navbar-text mr-5">
+                    LOGIN/JOIN
+                  </span>
+
+                <form class="form-inline">
+                    <button class="btn d-none d-md-inline order-1 book-butt" type="button">BOOK A STAY</button>
+                    
+                </form>
+
+            </nav>
+
+            <video autoplay muted loop id="myVideo"  class="d-block d-md-none video-pose">
+                <source src="tajimg/tajmobile.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="myVideo"  class="d-none d-md-block video-pose">
+                <source src="tajimg/tajvid.mp4" type="video/mp4">
+              </video>
+        </div>
+        <!-- </div> -->
+
+    <!-- global icon of hospitality section began -->
+
+        <div class="row">
+
+            <div class="about col-12">
+
+                <div style="height:200px; background-color: transparent;" class="d-md-block d-none d-lg-none d-lg-none"></div>
+                <div style="height:39vh; background-color: transparent;" class="d-md-none d-none d-xl-block d-lg-none"></div>
+                
+                
+                 <!-- heading for large device -->
+                <h1 class="display-4 d-sm-block d-none global-heading col-12">- GLOBAL ICON OF INDIAN HOSPITALITY -</h1>
+                <!-- heading for small device -->
+                <h1 class="display-10 d-block d-sm-none global-heading col-12">- GLOBAL ICON OF INDIAN HOSPITALITY -</h1>
+
+                <div class="pera-con col-12">
+                    <!-- pera for large device -->
+                <p class="global-pera col-12 display-6 d-sm-block d-none">Enter a realm of storied halls, sophisticated delights and unrivalled indulgence.<br> Immerse yourself in the grandeur of luxury at our exquisite palaces, hotels, <br>resorts and safaris.</p>
+                    <!-- pera for small device -->
+                <p class="global-pera col-12 display-10 d-block d-sm-none ">Enter a realm of storied halls, sophisticated delights and unrivalled indulgence.<br> Immerse yourself in the grandeur of luxury at our exquisite palaces, hotels, <br>resorts and safaris.</p>
+                </div>
+
+            </div>
+
+            <!-- carouse or frame code started -->
+            <div class="slide-con col-12 d-block d-md-none d-flex flex-column justify-content-start">
+
+                <div id="carouselExampleCaptions col-12" id="slide-car" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <img src="tajimg/frame1pic.jpg" class="d-block w-100 slide-img" alt="...">
+                        <div class="carousel-caption">
+                          <h5>AUTHENTIC</h5>
+                          <p>Dive into a legacy of impeccable service where true refinement unfolds in every moment of your stay.</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="tajimg/frame2pic.jpg" class="d-block w-100 slide-img" alt="...">
+                        <div class="carousel-caption">
+                          <h5>ICONIC</h5>
+                          <p>Indulge in enduring distinction, extraordinary experiences and a legacy of unparalleled hospitality.</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="tajimg/frame3pic.jpg" class="d-block w-100 slide-img" alt="...">
+                        <div class="carousel-caption ">
+                          <h5>SOULFUL</h5>
+                          <p>Cultivate cherished memories and embrace a distinctive sense of belonging through personalised, immersive experiences.</p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="tajimg/frame4pic.jpg" class="d-block w-100 slide-img" alt="...">
+                        <div class="carousel-caption ">
+                          <h5>TIMELESS</h5>
+                          <p>Embrace a timeless elegance that embodies sophistication and an unwavering commitment to refined excellence</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <a class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+            </div>
+
+            <!-- strat here 4 frame session  -->
+            <div class="frameof4 col-12 d-none d-md-flex flex-row justify-content-center">
+
+              <div id="frame1">AUTHENTIC
+                  <p class="frame-pera">Dive into a legacy of impeccable service where true refinement unfolds in every moment of your stay.</p>
+              </div>
+          
+              <div id="frame2">ICONIC
+                  <p class="frame-pera">Indulge in enduring distinction, extraordinary experiences and a legacy of unparalleled hospitality.</p>
+              </div>
+          
+              <div id="frame3">SOULFUL
+                  <p class="frame-pera">Cultivate cherished memories and embrace a distinctive sense of belonging through personalised, immersive experiences.</p>
+              </div>
+          
+              <div id="frame4">TIMELESS
+                  <p class="frame-pera">Embrace a timeless elegance that embodies sophistication and an unwavering commitment to refined excellence</p>
+              </div>
+
+            </div>
+
+          
+            <!-- strat here exclusive for you section-->
+             
+            <div class="ex-sec ">
+                <div class="d-md-flex flex-row justify-content-center mb-5">
+              
+                    <h1 class="ex-sec-mainhead col-12 col-md-6 text-md-center">-EXCLUSIVELY<br>FOR YOU</h1>
+                    <p class="ex-sec-mainpera col-12 col-md-6">Refinement and creativity intertwine with dreamlike destinations<br> and soulful moments on each sojourn with Taj.</p>
+                </div>
+
+
+              <!-- big screen carousoul -->
+
+
+              <div id="carouselExampleCaptions" class="carousel slide m-auto d-none d-lg-block" data-ride="carousel" style="height:60vh; width:60vw;">
+                  
+                  <div class="carousel-inner ">
+                  
+                    <div class="carousel-item active">
+                      <img src="tajimg/ex-pic1.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc">
+                        <h5 class="ex-head ">MOMENT OF WONDER</h5>
+                        <p class="mt-3 ex-pera">Enjoy 30% saving with beat the heat offer on memorable taj hotel with your loved ones.</p>
+                      </div>
+                    </div>
+                  
+                    <div class="carousel-item">
+                      <img src="tajimg/ex-pic2.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc">
+                        <h5 class="ex-head " >SOULFUL ABODES</h5>
+                        <p class="mt-3 ex-pera">Reconnect with your spirit awaken your inner wisdom and discover a deeper sense of peace as you experience indias spritual destination.</p>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="tajimg/ex-pic3.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc">
+                        <h5 class="ex-head ">TAJ HOLIDAYS</h5>
+                        <p class="mt-3 ex-pera">Go beyond the ordinary and craft enduring memories with a perfectly curated taj holidays..</p>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="tajimg/ex-pic4.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc">
+                        <h5 class="ex-head ">NEUPASS</h5>
+                        <p class="mt-3 ex-pera">Our exclusive membership program that offers special savings on stays, dining, spas and more.</p>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="tajimg/ex-pic6.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc">
+                        <h5 class="ex-head ">TIMELESS WEDDINGS</h5>
+                        <p class="mt-3 ex-pera">Let yourspecial day transcend into an unforgettable celebration at our iconic destination, enveloped in a legendary hospitality.</p>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="tajimg/ex-pic7.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc">
+                        <h5 class="ex-head ">GIFITING</h5>
+                        <p class="mt-3 ex-pera">Delight your loved ones with unique taj experiences ranging across hotels, resturants and more.</p>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="tajimg/ex-pic8.webp" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block ex-pic-desc" >
+                        <h5 class="ex-head ">OFFER & PROMOTIONS</h5>
+                        <p class="mt-3 ex-pera">Experience unparellel luxury as you enjoy special savings and exclusive offers through our enticing range of promotions.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <a class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+                
+                <!-- normal caursoul -->
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide d-block d-lg-none mt-5 w-100" data-ride="carousel">
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        
+                        <div class="card" style="height:400px">
+                          <img class="card-img-top" src="tajimg/ex-pic1.webp" alt="First slide">
+                          <div class="card-body">
+                              <h5 class=" card-title ex-head">MOMENT OF WONDER</h5>
+                              <p class="card-text">Enjoy 30% saving with beat the heat offer on memorable taj hotel with your loved ones.</p>
+                          </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                      
+                      <div class="card" style="height:400px">
+                        <img class="card-img-top" src="tajimg/ex-pic2.webp" alt="Second slide">
+                        <div class="card-body">
+                            <h5 class="card-title  ex-head">SOULFUL ABODES</h5>
+                            <p class="card-text ">Reconnect with your spirit awaken your inner wisdom and discover a deeper sense of peace as you experience indias spritual destination.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      
+                      <div class="card" style="height:400px">
+                        <img class="card-img-top" src="tajimg/ex-pic4.webp" alt="Fourth slide">
+                                        <div class="card-body">
+                                            <h5 class="card-title  ex-head">NEUPASS</h5>
+                                            <p class="card-text">Our exclusive membership program that offers special savings on stays, dining, spas and more.</p>
+                                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      
+                      <div class="card" style="height:400px">                      
+                        <img class="card-img-top" src="tajimg/ex-pic5.webp" alt="Fifth slide">
+                                        <div class="card-body">
+                                            <h5 class="card-title  ex-head">EPICURE</h5>
+                                            <p class="card-text">The world of benefit design indulge with member only saving, unique voucher and exclusive benefits or more.</p>
+                                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      
+                      <div class="card" style="height:400px">
+                        <img class="card-img-top" src="tajimg/ex-pic6.webp" alt="Sixth slide">
+                                        <div class="card-body">
+                                            <h5 class="card-title  ex-head">TIMELESS WEDDINGS</h5>
+                                            <p class="card-text">Let yourspecial day transcend into an unforgettable celebration at our iconic destination, enveloped in a legendary hospitality.</p>
+                                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                      
+                      <div class="card" style="height:400px">
+                        <img class="card-img-top" src="tajimg/ex-pic3.webp" alt="Third slide">
+                        <div class="card-body">
+                            <h5 class="card-title  ex-head">TAJ HOLIDAYS</h5>
+                            <p class="card-text">Go beyond the ordinary and craft enduring memories with a perfectly curated taj holidays.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            </div>
+
+
+            <!-- beat the heat section -->
+            <div class="beat-heat-sec">
+
+                <div class="d-md-flex flex-row justify-content-center mb-5">                
+                    <h1 class="heat-sec-mainhead col-12 col-md-6 text-md-center">-BEAT THE HEAT</h1>
+                    <p class="heat-sec-mainpera col-12 col-md-6">Reclaim your summer joy and dive into cool adventures at our <BR>picture-perfect destinations as you beat the heat in style.</p>
+                </div>
+
+                <!-- multiitem carousel-->
+                <div id="multiItemCarousel" class="carousel slide karosal d-none d-md-block" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                          <div class="row">
+
+                              <div class="col-4">
+                                  <div class="card shadow" style="height:400px">
+                                      <img class="card-img-top" src="tajimg/beat1.webp" alt="First slide">
+                                      <div class="card-body">
+                                          <h5 class="card-title beat-head">FAMILY GATEAWAYS</h5>
+                                          <p class="card-text"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="col-4">
+                                  <div class="card" style="height:400px">
+                                      <img class="card-img-top" src="tajimg/beat2.webp" alt="Second slide">
+                                      <div class="card-body">
+                                          <h5 class="card-title beat-head">ROYAL EXPERIENCES</h5>
+                                          <p class="card-text"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="card" style="height:400px">
+                                      <img class="card-img-top" src="tajimg/beat3.webp" alt="Third slide">
+                                      <div class="card-body">
+                                          <h5 class="card-title beat-head">INTERNATIONAL GATEWAYS</h5>
+                                          <p class="card-text"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a>.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="row">
+                              <div class="col-4">
+                                  <div class="card" style="height:400px">
+                                      <img class="card-img-top" src="tajimg/beat4.webp" alt="Fourth slide">
+                                      <div class="card-body">
+                                          <h5 class="card-title beat-head">WILD LIFE ESCAPE</h5>
+                                          <p class="card-text"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a>.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="card" style="height:400px">
+                                      <img class="card-img-top" src="tajimg/livingplace.webp" alt="Fifth slide">
+                                      <div class="card-body">
+                                          <h5 class="card-title beat-head">LIVING PALACES</h5>
+                                          <p class="card-text"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-4">
+                                  <div class="card" style="height:400px">
+                                      <img class="card-img-top" src="tajimg/safari.webp" alt="Sixth slide">
+                                      <div class="card-body">
+                                          <h5 class="card-title beat-head">ENCHANTING SAFARIS</h5>
+                                          <p class="card-text"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>                    
+                       
+                  </div>
+                  <a class="carousel-control-prev" href="#multiItemCarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#multiItemCarousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+                
+
+                <div id="carouselExampleControls" class="carousel slide d-block d-md-none" data-ride="carousel" style="height:500px; width: 100%;">
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <img src="tajimg/beat1.webp" class="d-block w-100" alt="..." style="height:400px;">
+
+                        <div class="w-75 mr-auto beat-forsm-des">
+                          <p class="d-block beat-head" style="font-size:17px;"><b>FAMILY GATEAWAYS</b></p>
+                          <p class="card-text" style="font-size:13px;"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="tajimg/beat2.webp" class="d-block w-100" alt="..." style="height:400px;">
+
+                        <div class="w-75 mr-auto beat-forsm-des">
+                          <p class="d-block beat-head" style="font-size:17px;"><b>ROYAL EXPERIENCES</b></p>
+                          <p class="card-text" style="font-size:13px;"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="tajimg/beat3.webp" class="d-block w-100" alt="..." style="height:400px;">
+
+                        <div class="w-75 mr-auto beat-forsm-des">
+                          <p class="d-block beat-head" style="font-size:17px;"><b>INTERNATIONAL GATEWAYS</b></p>
+                          <p class="card-text" style="font-size:13px;"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="tajimg/beat4.webp" class="d-block w-100" alt="..." style="height:400px;">
+
+                        <div class="w-75 mr-auto beat-forsm-des">
+                          <p class="d-block beat-head" style="font-size:17px;"><b>WILD LIFE ESCAPE</b></p>
+                          <p class="card-text" style="font-size:13px;"><a>MORE <i class="fa-solid fa-arrow-right-long"></i></a></p>
+                        </div>
+                      </div>
+                    </div>
+
+                   <a class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                   </a>
+                    <a class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                
+            </div>
+
+
+            
+            <!-- strt from here -->
+
+            <div class="dining-sec">
+
+                <div class="d-md-flex flex-row justify-content-center mb-5">                
+                    <h1 class="heat-sec-mainhead col-12 col-md-6 text-md-center">-SIGNATURE<br>DINING</h1>
+                    <p class="heat-sec-mainpera col-12 col-md-6 mt-5">Embark on a journey of exquisite experiences, encompassing <br>impeccable service, sophisticated ambience and masterful culinary<br> artistry.<br><br>
+                      <a class="card-text">EXPLORE <i class="fa-solid fa-arrow-right"></i></a>
+                    ​</p>                      
+                </div>
+
+                <div class="d-none d-md-block dining-pics">
+                    <div class="dining-pics d-flex flex-row justify-content-center">
+                      <div class="din-pic-sec col-4">
+                        <img class="din-pic" src="tajimg/diningimg1.webp">
+                        <h6 class="din-head">- CELEBRATED CHEFS</h6>
+                        <p class="din-pera">A Distinguished roster of world class talent embodying culinary excellence,creativity and precision.</p>
+                      </div>
+
+                      <div class="din-pic-sec col-4">
+                        <img class="din-pic" src="tajimg/diningimg2.webp">
+                        <h6 class="din-head">- LEGENDARY RESTURANTS</h6>
+                        <p class="din-pera">A Collection of Restaurants recognized for unparellel dining experiences showcasing culinary prowess and attentive service.</p>
+                      </div>
+
+                      <div class="din-pic-sec col-4">
+                        <img class="din-pic" src="tajimg/diningimg3.webp">
+                        <h6 class="din-head">- SIGNATURES RACIPES</h6>
+                        <p class="din-pera">culinary mastery shines as each dish highlight a medley of flavours and textures for an unforgettable dining experiences.</p>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class=" ">
+                  <div class=" d-flex flex-column justify-content-center d-block d-md-none">
+                    <div class="din-pic-sec-sm col-12 shadow text-center" >
+                      <img class="din-pic" src="tajimg/diningimg1.webp" style="height:250px;">
+                      <h6 class="din-head ">- CELEBRATED CHEFS</h6>
+                      <p class="din-pera">A Distinguished roster of world class talent embodying culinary excellence,creativity and precision.</p>
+                    </div>
+
+                    <div class="din-pic-sec-sm col-12 shadow mt-5 text-center">
+                      <img class="din-pic" src="tajimg/diningimg2.webp" style="height:250px;">
+                      <h6 class="din-head">- LEGENDARY RESTURANTS</h6>
+                      <p class="din-pera">A Collection of Restaurants recognized for unparellel dining experiences showcasing culinary prowess and attentive service.</p>
+                    </div>
+
+                    <div class="din-pic-sec-sm col-12 shadow mt-5 text-center">
+                      <img class="din-pic" src="tajimg/diningimg3.webp" style="height:250px;">
+                      <h6 class="din-head">- SIGNATURES RACIPES</h6>
+                      <p class="din-pera">culinary mastery shines as each dish highlight a medley of flavours and textures for an unforgettable dining experiences.</p>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+
+            <div class="event-sec ">
+
+                <div class="d-md-flex flex-row justify-content-center mb-5 ">                
+                    <h1 class="heat-sec-mainhead col-12 col-md-6 text-md-center">-EVENT AND <BR> CONFRENCES</h1>
+                    <p class="heat-sec-mainpera col-12 col-md-6" style="margin-top:80px;">Taj elevates every occasion into an awe-inspiring, immersive <BR>experience to cherish forever.</p>
+                </div>
+
+                <div class="d-none d-md-block d-md-flex flex-row justify-content-center event-item-cover" >
+                  <div class="eventitem mr-4" id="eventitem1">
+                    <img class="event-img" src="tajimg/event1.webp">
+                    <h5 class="event-head1 ml-auto shadow-lg">MEETING & CONFERENCES</h5>
+                  </div>
+
+                  <div class="eventitem mr-4" id="eventitem2">
+                    <img class="event-img" src="tajimg/event2.webp">
+                    <h5 class="event-head1 ml-auto shadow-lg">EVENT</h5>
+                  </div>
+
+                  <div class="eventitem" id="eventitem3">
+                    <img class="event-img" src="tajimg/event3.webp">
+                    <h5 class="event-head1 ml-auto shadow-lg">TIMELESS WEDDING</h5>
+                  </div>
+                </div>
+
+                <div class="d-block d-md-none event-item-cover m-auto">
+
+                  <div class="eventitem col-12" id="eventitem1">
+                    <img class="event-img" src="tajimg/event1.webp">
+                    <h5 class="event-head1 ml-auto shadow-lg p-3">MEETING & CONFERENCE</h5>
+                  </div>
+
+                  <div class="eventitem col-12" id="eventitem2">
+                    <img class="event-img" src="tajimg/event2.webp">
+                    <h5 class="event-head1 ml-auto shadow-lg p-3">EVENT</h5>
+                  </div>
+
+                  <div class="eventitem col-12" id="eventitem3">
+                    <img class="event-img" src="tajimg/event3.webp">
+                    <h5 class="event-head1 ml-auto shadow-lg p-3">TIMELESS WEDDING</h5>
+                  </div>
+                </div>
+
+            </div>
+            
+            <!-- jwell section -->
+            <div class="jwell-sec">
+
+              <div class="d-md-flex flex-row justify-content-center mb-5" style="padding:30px;">                
+                <h1 class="heat-sec-mainhead col-12 col-md-6 text-md-center">-EVENT AND <BR> CONFRENCES</h1>
+                <p class="heat-sec-mainpera col-12 col-md-6" style="margin-top:60px;">Welcome to a sanctuary that seamlessly blends Indian heritage<br> healing with serene contemporary comforts for the mind, body and<br> soul.</p>
+              </div>
+
+              <div class="jwellimg d-none d-md-block"></div>
+              <div class="jwellimg-sm m-auto d-block d-md-none"></div>
+
+            </div>
+
+            <!-- finally footer -->
+            <div class="footer-sec">
+
+              <img src="tajimg/hci-logo.png" class="col-12 hcl-logo mb-3 text-left">
+              <p class="col-12 footer-pera mt-2">SUBSCRIBE TO OUR NEWSLETTER</p>
+
+            <div class="row">
+              <div class="col-12 col-md-5 d-flex flex-column justify-content-center email-sec">
+
+                <div class="d-flex flex-row justify-content-start">
+                    <input type="text" placeholder="Enter your email address">
+                    <button class="subs">SUBSCRIBE</button>
+                </div>
+                <p class="footer-pera mt-3">FOR BOOKING CONTECT</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <p class="footer-white-pera">1-800-111-825</p>
+                    <p class="footer-white-pera">reservations@ihcltata.com</p>
+                </div>
+                <p class="footer-pera">CUSTOMER SUPPORT</p>
+                <p class="footer-white-pera">contacttaj@tajhotels.com</p>
+              </div>
+
+
+              <div class="social col-12 col-md-3 w-100">
+                <p class="footer-pera">CONNECT WITH US</p>
+                <div class="social-icons d-flex flex-row justify-content-start">
+                    <i class="text-white fa-brands fa-facebook-f mr-3"></i>
+                    <i class="text-white fa-brands fa-x-twitter mr-3"></i>
+                    <i class="text-white fa-brands fa-instagram mr-3"></i>
+                    <i class="text-white fa-brands fa-youtube mr-3"></i>
+                    <i class="text-white fa-brands fa-linkedin-in mr-3"></i>
+                </div>
+                
+              </div>
+
+              <div class="link-sec col-12 col-md-4 ">
+                <p class="footer-pera">QUICK LINKS</p>
+                <div class="lists d-flex flex-row justify-content-start">
+                    <ul>
+                        <li>Hotels</li>
+                        <li>Dining</li>
+                        <li>Wellness</li>
+                        <li>Timeless Weddings</li>
+                        <li>Event Venue</li>
+                        <li>Taj Mangzins</li>
+                        <li>Sitemap</li>
+                    </ul>
+                    <ul>
+                        <li>About Taj</li>
+                        <li>Holidays</li>
+                        <li>Offers</li>
+                        <li>Gifting</li>
+                        <li>Neupass</li>
+                        <li>Epicure</li>
+                    </ul>
+                </div>
+              </div>
+
+              <hr class="col-12">
+              <div class="dest col-12 d-flex flex-row justify-content-start">
+                <p class="footer-pera">DESTINATIONS</p>
+                <i class="text-white fa-plus ml-auto fa-lg mt-3" ></i>
+              </div>
+              <hr class="col-12">
+
+              <h2 class="brand-name col-12">OUR BRANDS</h2>
+              <div class="brands m-auto">                
+                <img class="brand-logo col-6" src="tajimg/tajlogo.png">
+                <img class="brand-logo col-6" src="tajimg/sele-brand.svg">
+                <img class="brand-logo col-6" src="tajimg/vivabrand.svg">
+                <img class="brand-logo col-6" src="tajimg/ginbrand.svg">
+                <img class="brand-logo col-6" src="tajimg/amabrand.svg">
+                <img class="brand-logo col-6" src="tajimg/3minbrand.svg">
+                <img class="brand-logo col-6" src="tajimg/sats.svg">                
+              </div>
+              <hr class="col-12">
+
+              <div class="end-link col-12 text-center">
+                <a class="aa">Corporate</a> | <a class="m-1 aa">Pressroom</a> | <a class="m-1 aa">Work With Us</a> | <a class="m-1 aa">Terms of Service</a> | <a class="m-1 aa">Best Rate Guarantee FAQ </a> | <a class="m-1 aa">Accessibility</a> | <a class="m-1 aa">Investor Relations</a> | <a class="m-1 aa">Partners </a> | <a class="m-1 aa">Privacy Policy </a> | <a class="m-1 aa">Cookies Policy</a>
+              </div>
+
+              <hr class="col-12">
+              <div class="copy-right col-12 text-center">
+                <i class="fa-regular fa-copyright"></i>
+                <p class="d-inline">2024 The Indian Hotels Company Limited. All Rights Reserved.</p>
+              </div>
+            </div>  
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
+
